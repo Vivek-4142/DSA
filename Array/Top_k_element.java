@@ -23,3 +23,7 @@ class Solution {
        return arr;
     }
 }
+// Count frequencies using HashMap and maintain a Min Heap of size k
+// to keep track of the top k most frequent elements.
+// If heap size exceeds k, remove the least frequent element.
+// Finally, extract elements from the heap into the result array.
