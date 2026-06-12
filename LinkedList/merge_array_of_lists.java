@@ -30,3 +30,5 @@ class Solution {
         return res.next;
     }
 }
+
+// using min heap where we add the first node of each list to the min heap and then we poll the minimum node and add it to our result list and then we add the next node of the polled node to the min heap until the min heap is empty.    
